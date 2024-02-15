@@ -1,0 +1,60 @@
+body {
+    font-family: "Josefina Sans", sans-serif;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+}
+
+header > h2 {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#menu {
+    background-color: aquamarine;
+    border: none;
+    padding: 10px;
+}
+
+.menu > li {
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.artigo, a {
+    margin-bottom: 70px;
+}
+.artigo, img{
+    height: auto;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
+.footer {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.footer > li {
+    list-style: none;
+    padding-right: 30px;
+    color: aliceblue;
+}
